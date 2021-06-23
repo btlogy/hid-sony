@@ -498,8 +498,8 @@ struct motion_output_report_02 {
 #define DS4_INPUT_REPORT_0x11_SIZE 78
 #define DS4_OUTPUT_REPORT_0x05_SIZE 32
 #define DS4_OUTPUT_REPORT_0x11_SIZE 78
-#define SIXAXIS_REPORT_0xF2_SIZE 17
-#define SIXAXIS_REPORT_0xF5_SIZE 8
+#define SIXAXIS_REPORT_0xF2_SIZE 64
+#define SIXAXIS_REPORT_0xF5_SIZE 64
 #define MOTION_REPORT_0x02_SIZE 49
 
 /* Offsets relative to USB input report (0x1). Bluetooth (0x11) requires an
